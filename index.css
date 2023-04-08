@@ -83,3 +83,61 @@ a{
     color: #189bc6;
     text-decoration: none;
 }
+
+#incr:hover{
+    background: white;
+    color: green;
+}
+
+#decr:hover{
+    background: white;
+    color: red;
+}
+
+#reset:hover{
+    background: white;
+    color: rgb(249, 177, 9);
+}
+
+#container:hover{
+    color:black;
+    transition: .5s;
+    animation: count-val 20s ease-in-out infinite;
+    
+}
+
+@keyframes count-val{
+    0%{
+        background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%) ;
+    }
+    10%{
+        background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    }
+    20%{
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+    30%{
+        background: linear-gradient(120deg, #fbd786 0%, #f7797d 100%);
+    }
+    40%{
+        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    }
+    50%{
+        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    }
+    60%{
+        background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    }
+    70%{
+        background: linear-gradient(120deg, #fbd786 0%, #f7797d 100%);
+    }
+    80%{
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+    90%{
+        background: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    }
+    100%{
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
+}
